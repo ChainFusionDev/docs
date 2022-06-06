@@ -1,0 +1,5 @@
+# Becoming a Validator
+
+To become a validator and be able to receive rewards during validation process by running a node, you need to stake at least **10 ETH** into a staking contract. More stake increases validation rewards in **CFN**.
+
+Be aware, that before staking, you would need to [start a node](running-a-node.md) first. Node should be fully synchronized and configured with the same account you are staking from. It's your responsibility to make sure validator node does not go offline for long period of time, as it may result in slashing by other validators.
