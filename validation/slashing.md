@@ -1,8 +1,6 @@
 # Slashing
 
-During validation process, participants actively monitor each other to check if they cooperate by consensus rules. In case validators see non-cooperative participant, they vote against him on-chain.
-
-Voting happens automatically by validator node.
+During validation process, participants actively monitor each other to check if they cooperate by consensus rules. In case validators nodes see any non-cooperative participant, they vote against him on-chain.
 
 ### Validator responsibilities
 
