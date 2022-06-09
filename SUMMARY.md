@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Decentralized Bridge](README.md)
+* [Bridge Overview](README.md)
 
 ## Bridge
 
