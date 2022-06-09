@@ -19,6 +19,7 @@
 ## Core Concepts
 
 * [Distributed Key Generation](core-concepts/distributed-key-generation.md)
+* [Transfer Confirmation](core-concepts/transfer-confirmation.md)
 
 ## Links
 
