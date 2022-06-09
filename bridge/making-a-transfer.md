@@ -15,6 +15,4 @@ After you made a deposit, usually it takes few minutes for validators to confirm
 
 ### Transferring assets using Bridge UI
 
-This sections is being written...
-
 Bridge UI is in active development and expected to be available soon...

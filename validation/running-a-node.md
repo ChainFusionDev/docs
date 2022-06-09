@@ -4,5 +4,5 @@ Running a node requires server based on any linux distributive, installed docker
 
 ### Note
 
-This page is work in progress, check on this later
+This page is in process of being written, check on it later...
 
