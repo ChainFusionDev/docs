@@ -4,6 +4,10 @@ Validators constantly monitor bridging events on all supported blockchains. Once
 
 Not every validator needs to be online when there is need to create mutual transaction signature. This is achieved using threshold signatures, meaning that, let's say only 20 of 30 validators need to  participate in signing, while still allowing them to crate valid mutual signature.
 
+### Keep-alive validator messages
+
+Validators send keep-alive messages peer-to-peer to other validator nodes to report that they are online and able to participate is signing. When validators start to process bridge transfer, they use list of validators that recently send keep-alive messages to form list of active validators.
+
 ### Threshold signing process
 
-Every validator, during monitoring of supported blockchains, maintains pool of unconfirmed transfers.
+Each active validator node, during monitoring of supported blockchains, maintains pool of unconfirmed transfers.
