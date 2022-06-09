@@ -2,7 +2,7 @@
 
 Some tokens are not originated from this bridge and already deployed on several blockchains. To make cross-chain transfers of these tokens possible, bridge needs liquidity in same tokens. To incentivise providing of liquidity, bridge distributes part of collected fees during bridging operations to liquidity providers.
 
-### Providing Liquidity
+### Providing liquidity
 
 To provide liquidity, you can deposit to Liquidity Pools contract with any supported token.
 
