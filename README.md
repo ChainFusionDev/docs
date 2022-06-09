@@ -12,9 +12,9 @@ Using algorithm mentioned above, validators generate distributed key by performi
 
 ### Making bridging cheap
 
-In bridges with setup of more than one validator, usually on-chain signature checking for each validator is used. It's costly to check signatures on-chain when number of validators increases, each new signature consumes blockchain's native currency (for example, in Ethereum to make a transaction we pay gas). More validators, means more signatures to verify, means bigger on-chain confirmation costs, resulting in higher bridge fees.
+In bridges with setup of more than one validator, usually on-chain signature is used. It's costly to check signatures on-chain when number of validators increases, each new signature verification consumes transaction fee. More validators, means more signatures to verify, which means bigger on-chain confirmation costs, resulting in higher bridge fees.
 
-Threshold ECDSA allow us to compose one single signature using majority of validators. It's much cheaper to validate only one signature and does not affect security of validation.
+Threshold ECDSA allow us to compose one single signature using majority of validators. It's much cheaper to validate single signature and it does not affect security of validation.
 
 ### Supported operations
 
