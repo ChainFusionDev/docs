@@ -2,15 +2,7 @@
 
 Running a node requires server based on any linux distributive, installed docker and basic unix shell skills.
 
-### Pulling a docker image
+### Note
 
-WIP
-
-### Configuring a node
-
-WIP
-
-### Starting the node
-
-WIP
+This page is work in progress, check on this later
 
