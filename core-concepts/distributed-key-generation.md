@@ -10,4 +10,4 @@ Once validators list is changed, due to [staking](../validation/becoming-a-valid
 
 It's not a secret that we live in a not ideal world and we cannot be sure that validators will run their nodes with 100% uptime, or that validators won't submit any corrupted data as a round results.
 
-To address this issue, validators, during DKG process can vote against misbehaving participants on-chain and restart the DKG process without them. Fortunately DKG algorithm that we use allows to identify misbehaving participants. If validators misbehave too often, they are being [slashed](../validation/slashing.md).
+To address this issue, validators, during DKG process can vote against misbehaving participants on-chain and restart the DKG process without them. Fortunately [DKG algorithm](https://eprint.iacr.org/2020/540.pdf) that we use allows to identify misbehaving participants. If validators misbehave too often, they are being [slashed](../validation/slashing.md).
