@@ -6,7 +6,8 @@ During validation process, participants actively monitor each other to check if 
 
 List of main validator responsibilities:
 
-* producing new blocks in ChainFusion network
-* participating in DKG when validator list is changed
-* participating in threshold signatures creation
+* produce new blocks in ChainFusion network
+* participate in DKG when validators list is changed
+* participate in threshold signatures creation to confirm bridge transfers
+* slash misbehaving validators
 
