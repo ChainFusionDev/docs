@@ -1,8 +1,8 @@
-# Bridge Overview
+# Overview
 
 ChainFusion is a decentralized bridge that allows fast and cheap cross-chain communication, for example sending assets between blockchains. We strongly believe that bridges should be decentralized and trustless, everyone should be able to become a validator to secure the bridge.
 
-Recent events show that current cross-chain solutions are highly vulnerable, sometimes it's enough to compromise few private keys in order to steal all locked value. Risks increase with centralized setups, where only bridge operating company decides who could become a validator.
+Recent attacks show that current cross-chain solutions are highly vulnerable, sometimes it's enough to compromise few private keys in order to steal all locked value. Risks increase with centralized setups, where only bridge operating company decides who could become a validator.
 
 ### Decentralizing the Bridge
 
@@ -15,8 +15,4 @@ Using algorithm mentioned above, validators generate distributed key by performi
 In bridges with setup of more than one validator, usually on-chain signature checking for each validator is used. It's costly to check signatures on-chain when number of validators increases, each new signature consumes blockchain's native currency (for example, in Ethereum to make a transaction we pay gas). More validators, means more signatures to verify, means bigger on-chain confirmation costs, resulting in higher bridge fees.
 
 Threshold ECDSA allow us to compose one single signature using majority of validators. It's much cheaper to validate only one signature and does not affect security of validation.
-
-### Supported operations
-
-Currently bridge supports ERC-20 token transfers, our team constantly expands list of supported blockchains and tokens. We have plans to also support NFTs and transferring arbitrary data between blochchains.
 
