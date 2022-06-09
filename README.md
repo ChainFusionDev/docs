@@ -18,5 +18,5 @@ Threshold ECDSA allow us to compose one single signature using majority of valid
 
 ### Supported operations
 
-Currently bridge supports ERC-20 token transfers, our team constantly expands list of supported blockchains and tokens. We plan to also support NFTs and arbitrary data transfer between blockchains.
+Currently bridge supports ERC-20 token transfers, our team constantly expands list of supported blockchains and tokens. We plan to also support NFTs and arbitrary data transfer between blockchains soon.
 
