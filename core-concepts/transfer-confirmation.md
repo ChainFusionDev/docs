@@ -10,4 +10,8 @@ Validators send keep-alive messages peer-to-peer to other validator nodes to rep
 
 ### Threshold signing process
 
-Each active validator node, during monitoring of supported blockchains, maintains pool of unconfirmed transfers.
+Each active validator node, maintains pool of unconfirmed transfers, during monitoring of supported blockchains.
+
+Unconfirmed transfers go through 6 round distributed signing process by active validator nodes. During which it's decided what to sign (which transfer, using which gas price and other transaction details), so resulting transaction hash is deterministic. Once transaction is signed, it's being broadcasted by validators on **destination** chain.
+
+Validators don't need to have any amount of native currency on destination blockchains. As all the transactions are being created collectively, from the mutual address. This mutual address is funded from bridge transfer fees.
