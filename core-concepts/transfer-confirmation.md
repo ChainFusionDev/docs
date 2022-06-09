@@ -6,4 +6,4 @@ Not every validator needs to be online when there is need to create mutual trans
 
 ### Threshold signing process
 
-FIrst, before signing something, validators need to decide, what to sign first, as there could be few pending bridge transactions.
+Every validator, during monitoring of supported blockchains, maintains pool of unconfirmed transfers.
