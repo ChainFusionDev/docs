@@ -1,6 +1,6 @@
 # Slashing
 
-During validation process, participants actively monitor each other to check if they cooperate by consensus rules. In case validators nodes see any non-cooperative participant, they vote against him on-chain.
+During validation process, participants actively monitor each other to check if everyone cooperate according to consensus rules. In case validators nodes see any non-cooperative participant, they vote against him on-chain, which may result in slashing. During slashing misbehaving participant is removed from validator list and his stake is distributed to other validators as a reward for keeping bridge secure.
 
 ### Validator responsibilities
 
