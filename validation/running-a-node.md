@@ -33,10 +33,16 @@ VALIDATOR_ADDRESS=8E9c2a51f072E857ddCdB94bcbd1689098458c04
 
 ### Launch validator node
 
-Now launch your validator node using `docker-compose` command in `single-validator` directory:
+Now launch your validator node in background using `docker-compose` command in `single-validator` directory:
 
 ```bash
-docker-compose up
+docker-compose up -d
+```
+
+### See validator logs
+
+```bash
+docker-compose logs --tail=100 -f validator
 ```
 
 ### Verify that node is producing blocks
