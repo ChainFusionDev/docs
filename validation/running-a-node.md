@@ -13,7 +13,7 @@ cd single-validator
 
 ### Generate keystore file
 
-A validator needs a key in order to sign blocks, validate bridge events and receive a reward. To generate the key, you need to be in _single-validator_ folder and execute the following command:
+A validator needs a key in order to sign blocks, validate bridge events and receive a reward. To generate the key, you need to be in `single-validator` folder and execute the following command:
 
 ```bash
 docker run --rm -v $(pwd)/config:/data -it chainfusion/cfnode:master account new --datadir=/data
