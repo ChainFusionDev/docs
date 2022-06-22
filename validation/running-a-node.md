@@ -21,9 +21,9 @@ docker run --entrypoint="" --rm -v $(pwd):/data -it chainfusion/cfnode:master ge
 
 When generating the key, you will be asked to create new password that will encrypt your generated key. Your generated key will be stored in the `config/validator/keystore/` directory.
 
-### Configure setup
+### Configure validator node
 
-Rename file `.env.example` to `.env`. In this file you need set docker image, into `IMAGE`, write the password to the generated key, into `ACCOUNT_PWD`, put your public address without leading 0x from generated key, into `ADDRESS`. The resulting .env file should look like this:
+Copy file `.env.example` as `.env`. In this file you will need to put docker image tag into a `IMAGE` variable, put the password of the generated key into a `ACCOUNT_PWD` variable, put your public address without leading `0x` from generated key into a `ADDRESS` variable. The resulting `.env` file should look like this:
 
 ```bash
 IMAGE=chainfusion/cfnode:master
@@ -33,7 +33,7 @@ VALIDATOR_ADDRESS=8E9c2a51f072E857ddCdB94bcbd1689098458c04
 
 ### Launch validator node
 
-Now launch your validator node using docker-compose command in _single-validator_ directory:
+Now launch your validator node using `docker-compose` command in `single-validator` directory:
 
 ```bash
 docker-compose up
