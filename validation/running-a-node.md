@@ -41,8 +41,16 @@ docker-compose up -d
 
 ### See validator logs
 
+Last 100 lines of validator logs:
+
 ```bash
 docker-compose logs --tail=100 -f validator
+```
+
+All validator logs:
+
+```bash
+docker-compose logs -f validator
 ```
 
 ### Verify that node is producing blocks
