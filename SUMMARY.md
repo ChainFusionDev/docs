@@ -25,4 +25,4 @@
 
 * [Twitter](https://twitter.com/chain\_fusion)
 * [GitLab](https://gitlab.com/chainfusion)
-* [Ternopil Testnet Explorer](https://explorer.chainfusion.org)
+* [Testnet Explorer](https://explorer.chainfusion.org)
