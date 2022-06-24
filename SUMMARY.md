@@ -23,5 +23,6 @@
 
 ## Links
 
+* [Explorer](https://explorer.chainfusion.org)
 * [Twitter](https://twitter.com/chain\_fusion)
 * [GitLab](https://gitlab.com/chainfusion)
