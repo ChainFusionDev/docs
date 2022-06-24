@@ -22,7 +22,7 @@ Currently bridge supports ERC-20 token transfers, our team constantly expands li
 
 ### Ternopil testnet links
 
-We have recently launched Ternopil test network of ChainFusion. Below you can find useful URLs in order to explore the project.
+We have recently launched Ternopil test network of ChainFusion. Below you can find useful URLs to explore the project.
 
 | Name              | URL                                                                  |
 | ----------------- | -------------------------------------------------------------------- |
