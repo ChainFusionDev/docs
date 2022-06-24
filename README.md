@@ -20,3 +20,10 @@ Threshold ECDSA allow us to compose one single signature using majority of valid
 
 Currently bridge supports ERC-20 token transfers, our team constantly expands list of supported blockchains and tokens. We plan to also support NFTs and arbitrary data transfer between blockchains soon.
 
+### Ternopil testnet links
+
+| Name                               | URL                                                                  |
+| ---------------------------------- | -------------------------------------------------------------------- |
+| Ternopil Testnet Explorer          | [https://explorer.chainfusion.org](https://explorer.chainfusion.org) |
+| Ternopil Testnet RPC API           | [https://rpc.chainfusion.org](https://rpc.chainfusion.org)           |
+| Ternopil Testnet Websocket RPC API | [https://wc-rpc.chainfusion.org](https://rpc.chainfusion.org)        |
