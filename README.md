@@ -22,8 +22,10 @@ Currently bridge supports ERC-20 token transfers, our team constantly expands li
 
 ### Ternopil testnet links
 
-| Name                               | URL                                                                  |
-| ---------------------------------- | -------------------------------------------------------------------- |
-| Ternopil Testnet Explorer          | [https://explorer.chainfusion.org](https://explorer.chainfusion.org) |
-| Ternopil Testnet RPC API           | [https://rpc.chainfusion.org](https://rpc.chainfusion.org)           |
-| Ternopil Testnet Websocket RPC API | [https://wc-rpc.chainfusion.org](https://rpc.chainfusion.org)        |
+We have recently launched Ternopil test network of ChainFusion. Below you can find useful URLs in order to explore the project.
+
+| Name              | URL                                                                  |
+| ----------------- | -------------------------------------------------------------------- |
+| Explorer          | [https://explorer.chainfusion.org](https://explorer.chainfusion.org) |
+| RPC API           | [https://rpc.chainfusion.org](https://rpc.chainfusion.org)           |
+| Websocket RPC API | [https://wc-rpc.chainfusion.org](https://rpc.chainfusion.org)        |
