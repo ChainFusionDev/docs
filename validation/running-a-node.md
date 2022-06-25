@@ -16,7 +16,7 @@ cd single-validator
 A validator needs a key in order to sign blocks, validate bridge events and receive a reward. To generate the key, you need to be in `single-validator` folder and execute the following command:
 
 ```bash
-docker run --rm -v $(pwd)/config:/data -it chainfusion/cfnode:master account new --datadir=/data
+docker run --rm -v $(pwd)/config:/data -it chainfusion/cfnode:latest account new --datadir=/data
 ```
 
 When generating the key, you will be asked to create new password that will encrypt your generated key. Your generated key will be stored in the `config/validator/keystore/` directory.
@@ -26,7 +26,7 @@ When generating the key, you will be asked to create new password that will encr
 Copy file `.env.example` as `.env`. In this file you will need to put docker image tag into a `IMAGE` variable, put the password of the generated key into a `ACCOUNT_PWD` variable, put your public address without leading `0x` from generated key into a `ADDRESS` variable. The resulting `.env` file should look like this:
 
 ```bash
-IMAGE=chainfusion/cfnode:master
+IMAGE=chainfusion/cfnode:latest
 ACCOUNT_PWD=1234
 VALIDATOR_ADDRESS=8E9c2a51f072E857ddCdB94bcbd1689098458c04
 ```
