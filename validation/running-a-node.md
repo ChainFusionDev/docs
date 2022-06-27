@@ -4,7 +4,7 @@ Running a node requires server based on any linux distributive, installed docker
 
 ### Clone the repo
 
-To get started, you need to clone a repository `https://gitlab.com/chainfusion/cfnode-compose.git` to get project with two directories: `multi-validator` and `single-validator`. You need to open `single-validator`.
+To get started, you need to clone a repository `https://gitlab.com/chainfusion/cfnode-compose.git`, this project contains directories with different configurations that help to run a node in docker environment. Right after cloning the repo you need to open `single-validator` directory:
 
 ```bash
 git clone https://gitlab.com/chainfusion/cfnode-compose.git
@@ -48,7 +48,7 @@ VALIDATOR_PASSWORD=
 
 ### Launch validator node
 
-Now launch your validator node in background using `docker-compose` command in `single-validator` directory:
+Now let's launch your validator node in background using `docker-compose` command:
 
 ```bash
 docker-compose up -d
