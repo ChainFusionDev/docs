@@ -2,7 +2,7 @@
 
 Running a node requires server based on any linux distributive, installed docker and basic unix shell skills.
 
-### Clone repo
+### Clone the repo
 
 To get started, you need to clone a repository `https://gitlab.com/chainfusion/cfnode-compose.git` to get project with two directories: `multi-validator` and `single-validator`. You need to open `single-validator`.
 
@@ -26,9 +26,22 @@ When generating the key, you will be asked to create new password that will encr
 Copy file `.env.example` as `.env`. In this file you will need to put docker image tag into a `IMAGE` variable, put the password of the generated key into a `ACCOUNT_PWD` variable, put your public address without leading `0x` from generated key into a `ADDRESS` variable. The resulting `.env` file should look like this:
 
 ```bash
+# Docker image of validator node,
+# could be left without changes
 IMAGE=chainfusion/cfnode:latest
-ACCOUNT_PWD=1234
-VALIDATOR_ADDRESS=8E9c2a51f072E857ddCdB94bcbd1689098458c04
+# List of initial nodes to connect to,
+# could be left without changes
+BOOTNODES=enode://6295b6ea88a1519b7b0078c9e7d39921cdc73bdca67e029c1675c67076b0ccdcadc51b2f333f1eafab4ea6501afecb1bad7cb7cd4edaf91e5696ee89dce05edb@bootnode.chainfusion.org:30303
+# External IP of your machine, where validator is started,
+# should be set to be findable by other nodes
+EXTERNAL_IP=127.0.0.1
+# Public address of generated keystore,
+# you usually could be found inside keystore file
+VALIDATOR_ADDRESS=0000000000000000000000000000000000000000
+# Password of keystore file,
+# in case you set it during generation,
+# otherwise empty
+VALIDATOR_PASSWORD=1234
 ```
 
 ### Launch validator node
