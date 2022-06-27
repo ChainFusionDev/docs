@@ -4,16 +4,16 @@ Running a node requires server based on any linux distributive, installed docker
 
 ### Clone the repo
 
-To get started, you need to clone a repository `https://gitlab.com/chainfusion/cfnode-compose.git`, this project contains directories with different configurations that help to run a node in docker environment. Right after cloning the repo you need to open `single-validator` directory:
+To get started, you need to clone a repository `https://gitlab.com/chainfusion/cfnode-compose.git`, this project contains directories with different configurations that help to run a node in docker environment. Right after cloning the repo you need to open `validator` directory:
 
 ```bash
 git clone https://gitlab.com/chainfusion/cfnode-compose.git
-cd cfnode-compose/single-validator
+cd cfnode-compose/validator
 ```
 
 ### Generate keystore file
 
-A validator needs a key in order to sign blocks, validate bridge events and receive a reward. To generate the key, you need to be in `single-validator` folder and execute the following command:
+A validator needs a key in order to sign blocks, process bridge events and receive a reward. To generate validator key, you need to execute the following command:
 
 ```bash
 docker run --rm -v $(pwd)/keystore:/data/keystore -it chainfusion/cfnode:latest account new --datadir=/data
