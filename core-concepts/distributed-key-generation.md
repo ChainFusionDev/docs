@@ -4,7 +4,7 @@ To confirm bridge transfers, validators use distributed key. Validators particip
 
 ### Key generation process
 
-Once validators list is changed, due to [staking](../validation/becoming-a-validator.md) or [slashing](../validation/slashing.md), they participate in four rounds of key generation. Each next round requires completion of previous round by all the DKG participants. Results of each round is written to special [DKG smart contract](https://gitlab.com/chainfusion/chainfusion-contracts/-/blob/main/contracts/system/DKG.sol). Round result includes public data, for all participants, encrypted private data for other participants and encrypted intermediate data for validator itself. Intermediate data in contract allows to restore validator secret share, even if node is restarted from scratch and synchronized from the first block.
+Once validators list is changed, due to [staking](broken-reference) or [slashing](../validation/slashing.md), they participate in four rounds of key generation. Each next round requires completion of previous round by all the DKG participants. Results of each round is written to special [DKG smart contract](https://gitlab.com/chainfusion/chainfusion-contracts/-/blob/main/contracts/system/DKG.sol). Round result includes public data, for all participants, encrypted private data for other participants and encrypted intermediate data for validator itself. Intermediate data in contract allows to restore validator secret share, even if node is restarted from scratch and synchronized from the first block.
 
 ### Avoiding misbehaving validators
 

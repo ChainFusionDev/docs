@@ -9,7 +9,6 @@
 ## Validation
 
 * [Running a Node](validation/running-a-node.md)
-* [Becoming a Validator](validation/becoming-a-validator.md)
 * [Slashing](validation/slashing.md)
 
 ## Liquidity Pools
