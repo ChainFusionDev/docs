@@ -19,7 +19,9 @@ A validator needs a key in order to sign blocks, validate bridge events and rece
 docker run --rm -v $(pwd)/keystore:/data/keystore -it chainfusion/cfnode:latest account new --datadir=/data
 ```
 
-When generating the key, you will be asked to create new password that will encrypt your generated key. Your generated key will be stored in the `keystore/` directory.
+When generating the key, you will be asked to create new password that will encrypt your generated key. Generated key will be stored in the `keystore/` directory.
+
+Make sure you remember the password you gave when creating a key. Without it you are not able to unlock your account and lose access to validator stake.
 
 ### Configure validator node
 
