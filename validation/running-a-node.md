@@ -8,7 +8,7 @@ To get started, you need to clone a repository `https://gitlab.com/chainfusion/c
 
 ```bash
 git clone https://gitlab.com/chainfusion/cfnode-compose.git
-cd single-validator
+cd cfnode-compose/single-validator
 ```
 
 ### Generate keystore file
