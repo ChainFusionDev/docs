@@ -1,6 +1,6 @@
-# Running a Node
+# Running a Validator Node
 
-Running a node requires server based on any linux distributive, installed docker and basic unix shell skills.
+Running a validator node requires server based on any linux distributive, installed docker and basic unix shell skills.
 
 ### Clone the repo
 
