@@ -16,7 +16,9 @@ cd cfnode-compose/validator
 A validator needs a key in order to sign blocks, process bridge events and receive a reward. To generate validator key, you need to execute the following command:
 
 ```bash
-docker run --rm -v $(pwd)/keystore:/data/keystore -it chainfusion/cfnode:latest account new --datadir=/data
+docker run
+    --rm -v $(pwd)/keystore:/data/keystore -it chainfusion/cfnode:latest
+    account new --datadir=/data
 ```
 
 When generating the key, you will be asked to create new password that will encrypt your generated key. Generated key will be stored in the `keystore/` directory.
