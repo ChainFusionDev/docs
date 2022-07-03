@@ -72,7 +72,7 @@ docker-compose logs -f validator
 
 ### Validator Staking
 
-At the last step, after your node is up and running, you can finally stake and become a validator to receive rewards during validation process.
+After your node is up and running, you can finally stake and become a validator to receive rewards during validation process.
 
 You need to call `stake()` method in [ValidatorStaking](https://explorer.chainfusion.org/address/0x5E85B5Ab4ABfBf7178B1E92AB9df0C1188e839D1) contract. Minimum stake amount is **1000 CFN**, more stake amount increases relative validation rewards in **CFN**.
 
