@@ -41,11 +41,11 @@ BOOTNODES=enode://6295b6ea88a1519b7b0078c9e7d39921cdc73bdca67e029c1675c67076b0cc
 EXTERNAL_IP=127.0.0.1
 # Public address of generated keystore, without leading 0x,
 # could be found inside keystore file
-VALIDATOR_ADDRESS=
-# Password of keystore file,
+ADDRESS=
+# Password for keystore file,
 # in case you set it during generation,
 # otherwise leave empty
-VALIDATOR_PASSWORD=
+PASSWORD=
 ```
 
 ### Launch validator node
