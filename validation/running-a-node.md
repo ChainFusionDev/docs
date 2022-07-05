@@ -70,7 +70,7 @@ All validator logs:
 docker-compose logs -f validator
 ```
 
-### Validator Staking
+### Staking
 
 After your node is up and running, you can finally stake and become a validator to receive rewards during validation process.
 
