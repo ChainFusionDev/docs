@@ -1,5 +1,7 @@
 # Bridge Overview
 
+<figure><img src=".gitbook/assets/LinkedIn - Cover 2.1 - with shadow.png" alt=""><figcaption></figcaption></figure>
+
 ChainFusion is a decentralized bridge that provides fast, cheap and secure cross-chain communication, like sending assets between blockchains. We strongly believe that bridges should be decentralized and trustless, everyone should be able to become a validator and secure the bridge.
 
 Recent events show that current cross-chain solutions are highly vulnerable, sometimes it's enough to compromise few private keys in order to steal all locked value. Risks increase with centralized setups, where only bridge operating company decides who could become a validator.
