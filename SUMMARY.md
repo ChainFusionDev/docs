@@ -25,4 +25,4 @@
 * [Twitter](https://twitter.com/chain\_fusion)
 * [LinkedIn](https://www.linkedin.com/company/chainfusion/)
 * [GitLab](https://gitlab.com/chainfusion)
-* [Testnet Explorer](https://explorer.chainfusion.org)
+* [Explorer](https://explorer.chainfusion.org)
