@@ -22,6 +22,7 @@
 
 ## Links
 
+* [Bridge App](https://app.chainfusion.org)
 * [Twitter](https://twitter.com/chain\_fusion)
 * [LinkedIn](https://www.linkedin.com/company/chainfusion/)
 * [GitLab](https://gitlab.com/chainfusion)
