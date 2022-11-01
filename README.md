@@ -31,3 +31,31 @@ We have recently launched Ternopil test network of ChainFusion. Below you can fi
 | Explorer          | `https://explorer.chainfusion.org` |
 | RPC API           | `https://rpc.chainfusion.org`      |
 | Websocket RPC API | `wss://wc-rpc.chainfusion.org`     |
+
+### Bridgenet links
+
+In order to test bridge on Ternopil testnet we use three dummy bridge networks.
+
+#### Bridgenet 1
+
+| Name              | URL                                    |
+| ----------------- | -------------------------------------- |
+| Explorer          | `https://bg1-explorer.chainfusion.org` |
+| RPC API           | `https://bg1-rpc.chainfusion.org`      |
+| Websocket RPC API | `wss://bg1-wc-rpc.chainfusion.org`     |
+
+#### Bridgenet 2
+
+| Name              | URL                                    |
+| ----------------- | -------------------------------------- |
+| Explorer          | `https://bg2-explorer.chainfusion.org` |
+| RPC API           | `https://bg2-rpc.chainfusion.org`      |
+| Websocket RPC API | `wss://bg2-wc-rpc.chainfusion.org`     |
+
+#### Bridgenet 3
+
+| Name              | URL                                    |
+| ----------------- | -------------------------------------- |
+| Explorer          | `https://bg3-explorer.chainfusion.org` |
+| RPC API           | `https://bg3-rpc.chainfusion.org`      |
+| Websocket RPC API | `wss://bg3-wc-rpc.chainfusion.org`     |
